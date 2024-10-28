@@ -39,4 +39,7 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # Use PostgreSQL as the database for Active Record in production
+  gem "pg", group: :production
 end
