@@ -120,7 +120,7 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.3)
+    nio4r (2.7.4)
     nokogiri (1.16.7-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
@@ -129,9 +129,11 @@ GEM
     parser (3.3.5.0)
       ast (~> 2.4.1)
       racc
+    pg (1.5.9)
+    pg (1.5.9-x64-mingw-ucrt)
     psych (5.1.2)
       stringio
-    puma (6.4.3)
+    puma (6.5.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
@@ -235,6 +237,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  pg
   puma (>= 5.0)
   rack-cors
   rails (~> 7.2.1, >= 7.2.1.2)
